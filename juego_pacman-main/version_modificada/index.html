@@ -5,8 +5,34 @@
     <title>Pac-man</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-  </head>
+  
+<style>
+.back-games-guanentino {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 999999;
+    display: inline-block;
+    padding: 10px 16px;
+    background: #111;
+    color: #fff !important;
+    border: 2px solid #00ff88;
+    border-radius: 999px;
+    text-decoration: none !important;
+    font: 700 14px Arial, sans-serif;
+    box-shadow: 0 0 15px rgba(0,255,136,.25);
+    transition: .2s ease;
+}
+.back-games-guanentino:hover {
+    background: #00ff88;
+    color: #000 !important;
+    transform: scale(1.04);
+}
+</style>
+
+</head>
   <body>
+<a class="back-games-guanentino" href="../../index.html">← Games Guanentino</a>
     <div class="grid"></div>
     <h3>Score: <span id="score">0</span></h3>
   </body>
