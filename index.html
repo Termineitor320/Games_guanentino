@@ -3,162 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Games Guanentino - colección de juegos JavaScript">
     <title>Games Guanentino</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Fondo animado -->
+    <div class="animated-bg" aria-hidden="true">
+        <div class="grid"></div>
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="orb orb-4"></span>
+    </div>
+
     <main class="container">
+
         <header class="hero">
-            <div class="badge">COLEGIO SAN JOSÉ DE GUANENTÁ</div>
-            <h1>🎮 GAMES GUANENTINO</h1>
-            <p class="subtitle">Selecciona un juego y comienza a jugar</p>
+            <div class="badge">COLEGIO SAN JOSÉ DE GUANENTÁ · PROMOCIÓN 2026</div>
+
+            <h1>GAMES <span>GUANENTINO</span></h1>
+
+            <p class="subtitle">
+                Una colección de juegos desarrollados con HTML, CSS y JavaScript
+            </p>
+
+            <div class="hero-line"></div>
         </header>
 
-        <section class="games">
-            
+        <section class="games" aria-label="Lista de juegos">
+
         <article class="game geometry">
             <img class="game-image" src="img/geometry_dash.png" alt="Geometry Dash">
-            <div class="game-icon">🎮</div>
+            <div class="game-icon"></div>
             <h2>Geometry Dash</h2>
-            <p>Mi juego principal. Supera los obstáculos y llega hasta el final.</p>
+            <p>Supera los obstáculos, salta y llega hasta el final.</p>
             <a class="play" href="Game_JavasCript/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game blue">
-            
-            <div class="game-icon">🔢</div>
+            <img class="game-image" src="img/2048.png" alt="2048">
+            <div class="game-icon"></div>
             <h2>2048</h2>
-            <p>Combina los números hasta conseguir la ficha 2048.</p>
+            <p>Combina las fichas y alcanza el número 2048.</p>
             <a class="play" href="2048_ver2-main/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game green">
-            
-            <div class="game-icon">🟢</div>
+            <img class="game-image" src="Angelo-s_Slime_Blast-main/img/Angelo.png" alt="Angelo's Slime Blast">
+            <div class="game-icon"></div>
             <h2>Angelo's Slime Blast</h2>
-            <p>Juego de acción y aventura con diferentes versiones.</p>
+            <p>Aventura y acción en un mundo lleno de slimes.</p>
             <a class="play" href="Angelo-s_Slime_Blast-main/Version 1.1/angelo's_slime_blast1.html">▶ JUGAR</a>
         </article>
     
-        <article class="game blue">
-            <img class="game-image" src="javascriptgame-main/assets/tres-en-raya.jpg" alt="Tres en Raya">
-            <div class="game-icon">⭕</div>
-            <h2>Tres en Raya</h2>
-            <p>Consigue tres símbolos en línea para ganar.</p>
-            <a class="play" href="javascriptgame-main/index.html">▶ JUGAR</a>
-        </article>
-    
-        <article class="game green">
-            
-            <div class="game-icon">🐍</div>
+
+        <article class="game cyan">
+            <img class="game-image" src="img/snake.png" alt="Snake">
+            <div class="game-icon"></div>
             <h2>Snake</h2>
-            <p>Controla la serpiente, come y consigue la mayor puntuación.</p>
+            <p>Come, crece y consigue la mayor puntuación.</p>
             <a class="play" href="Snake-main/V2/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game purple">
-            
-            <div class="game-icon">🧩</div>
+            <img class="game-image" src="img/Sudoku.png" alt="Sudoku">
+            <div class="game-icon"></div>
             <h2>Sudoku</h2>
             <p>Completa el tablero usando lógica y estrategia.</p>
             <a class="play" href="Sudoku-main/Sudoku Version 2/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game red">
-            
-            <div class="game-icon">💣</div>
+            <img class="game-image" src="img/Buscaminas.png" alt="Buscaminas">
+            <div class="game-icon"></div>
             <h2>Buscaminas</h2>
-            <p>Descubre las casillas seguras evitando las minas.</p>
+            <p>Encuentra las casillas seguras sin activar las minas.</p>
             <a class="play" href="buscaminas-main/Buscaminas-master/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game green">
-            
-            <div class="game-icon">🐸</div>
+            <img class="game-image" src="img/Frogger.png" alt="Frogger">
+            <div class="game-icon"></div>
             <h2>Frogger</h2>
-            <p>Cruza la carretera y supera los obstáculos.</p>
+            <p>Cruza la carretera y supera todos los obstáculos.</p>
             <a class="play" href="introduction_java_script-main/frogger modificado/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game orange">
-            
-            <div class="game-icon">🏓</div>
+            <img class="game-image" src="img/pong.png" alt="Pong Sangileño">
+            <div class="game-icon"></div>
             <h2>Pong Sangileño</h2>
-            <p>Una versión de Pong desarrollada como proyecto de grado.</p>
+            <p>Una versión de Pong con identidad guanentina.</p>
             <a class="play" href="java_script-main/pongV2/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game red">
-            
-            <div class="game-icon">✊</div>
-            <h2>Piedra, Papel o Tijeras</h2>
-            <p>El clásico juego de decisiones contra el computador.</p>
+            <img class="game-image" src="img/piedra_papel_tijera.png" alt="Piedra, Papel o Tijera">
+            <div class="game-icon"></div>
+            <h2>Piedra, Papel o Tijera</h2>
+            <p>El clásico desafío contra el computador.</p>
             <a class="play" href="javascript-main/version2/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game purple">
-            
-            <div class="game-icon">🟦</div>
+            <img class="game-image" src="img/Tetris.png" alt="Tetris">
+            <div class="game-icon"></div>
             <h2>Tetris</h2>
-            <p>Completa líneas colocando las piezas correctamente.</p>
+            <p>Coloca las piezas y completa todas las líneas.</p>
             <a class="play" href="javascript_tetris-main/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game gold">
-            
-            <div class="game-icon">🦅</div>
+            <img class="game-image" src="img/condor.png" alt="Cóndor de Guanentá">
+            <div class="game-icon"></div>
             <h2>Cóndor de Guanentá</h2>
-            <p>Aventura inspirada en la identidad de Guanentá.</p>
+            <p>Una aventura inspirada en la identidad de Guanentá.</p>
             <a class="play" href="juegitos_html-main/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game orange">
-            
-            <div class="game-icon">🏃</div>
+            <img class="game-image" src="img/Runner.png" alt="San Gil Runner">
+            <div class="game-icon"></div>
             <h2>San Gil Runner</h2>
             <p>Corre, salta y supera los obstáculos.</p>
             <a class="play" href="juego-java-main/vercion2/index.html">▶ JUGAR</a>
         </article>
     
-        <article class="game blue">
-            
-            <div class="game-icon">🐴</div>
+
+        <article class="game cyan">
+            <img class="game-image" src="img/Seahorse War.png" alt="Seahorse War">
+            <div class="game-icon"></div>
             <h2>Seahorse War</h2>
-            <p>Combate acuático con temática de San Gil.</p>
+            <p>Combate acuático en una edición inspirada en San Gil.</p>
             <a class="play" href="juego_java-main/version_2/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game yellow">
-            
-            <div class="game-icon">👾</div>
+            <img class="game-image" src="img/pacman.png" alt="Pac-Man">
+            <div class="game-icon"></div>
             <h2>Pac-Man</h2>
             <p>Recorre el laberinto y consigue todos los puntos.</p>
             <a class="play" href="juego_pacman-main/version_modificada/index.html">▶ JUGAR</a>
         </article>
     
-       
+
+        <article class="game green">
+            <img class="game-image" src="img/Tetris.png" alt="Tetris Sangileño">
+            <div class="game-icon"></div>
+            <h2>Tetris Sangileño</h2>
+            <p>Una versión de Tetris con identidad de San Gil.</p>
+            <a class="play" href="mi_juego-main/index.html">▶ JUGAR</a>
+        </article>
     
+
         <article class="game blue">
-            
-            <div class="game-icon">🚀</div>
+            <img class="game-image" src="img/Space Invaders.png" alt="Space Invaders">
+            <div class="game-icon"></div>
             <h2>Space Invaders</h2>
             <p>Defiende tu nave y derrota a los invasores.</p>
             <a class="play" href="space_game-main/version_2/index.html">▶ JUGAR</a>
         </article>
     
+
         <article class="game red">
-            
-            <div class="game-icon">🔫</div>
+            <img class="game-image" src="img/Gun Fight.png" alt="Gun Fight">
+            <div class="game-icon"></div>
             <h2>Gun Fight</h2>
-            <p>Juego de disparos inspirado en el clásico de 1975.</p>
+            <p>Duelo inspirado en el clásico juego de 1975.</p>
             <a class="play" href="version2_juego-main/index.html">▶ JUGAR</a>
+        </article>
+    
+
+        <article class="game blue">
+            <img class="game-image" src="javascriptgame-main/assets/tres-en-raya.jpg" alt="Tres en Raya">
+            <div class="game-icon"></div>
+            <h2>Tres en Raya</h2>
+            <p>Consigue tres símbolos en línea para ganar.</p>
+            <a class="play" href="javascriptgame-main/index.html">▶ JUGAR</a>
+        </article>
+    
+
+        <article class="game silver">
+            <div class="game-image placeholder"><span>🎯</span></div>
+            <div class="game-icon"></div>
+            <h2>Juego JavaScript</h2>
+            <p>Un proyecto adicional de juegos JavaScript del recopilatorio.</p>
+            <a class="play" href="Juego_JavaScript-main/version_1/juego.html">▶ JUGAR</a>
         </article>
     
         </section>
 
         <footer>
-            Proyecto de Juegos JavaScript · Promoción 2026
+            <p>🎮 Games Guanentino · Proyecto de Juegos JavaScript</p>
+            <p class="footer-small">Selecciona un juego para comenzar</p>
         </footer>
+
     </main>
+
+    <script>
+        // Pequeño efecto de movimiento del fondo siguiendo el cursor.
+        document.addEventListener("pointermove", (event) => {
+            const x = (event.clientX / window.innerWidth - 0.5) * 2;
+            const y = (event.clientY / window.innerHeight - 0.5) * 2;
+
+            document.documentElement.style.setProperty("--mouse-x", x);
+            document.documentElement.style.setProperty("--mouse-y", y);
+        });
+    </script>
+
 </body>
 </html>
